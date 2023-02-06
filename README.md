@@ -8,8 +8,8 @@ Cat is one of the most frequently used commands on Unix-like operating systems. 
 
 | Options       | Description        |
 | ------------- |:------------------:|
-| -b (GNU: --number-nonblank)    | выровнен вправо    |
-| -e implies -v (GNU only: -E the same, but without implying -v)    | выровнен по центру |
-| -n (GNU: --number)  | прикольные         |
-| -s (GNU: --squeeze-blank)  | прикольные         |
-|  -t implies -v (GNU: -T the same, but without implying -v)  | прикольные         |
+| -b (GNU: --number-nonblank)    |  numbers only non-empty lines   |
+| -e implies -v (GNU only: -E the same, but without implying -v)    | display end-of-line characters as $ |
+| -n (GNU: --number)  | number all output lines         |
+| -s (GNU: --squeeze-blank)  | squeeze multiple adjacent blank lines         |
+|  -t implies -v (GNU: -T the same, but without implying -v)  | display tabs as ^I         |

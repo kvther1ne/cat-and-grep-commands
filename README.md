@@ -1,7 +1,7 @@
 # cat-and-grep-commands
 ### Basic Bash utilities for working with C programming language texts
 
-Cat is one of the most frequently used commands on Unix-like operating systems. It has three related functions with regard to text files: displaying them, combining copies of them and creating new ones.
+Cat is a standard Unix utility that reads files sequentially, writing them to standard output. 
 
 ### cat [OPTION] [FILE]...
 
@@ -13,3 +13,7 @@ Cat is one of the most frequently used commands on Unix-like operating systems. 
 | -n (GNU: --number)  | number all output lines         |
 | -s (GNU: --squeeze-blank)  | squeeze multiple adjacent blank lines         |
 |  -t implies -v (GNU: -T the same, but without implying -v)  | display tabs as ^I         |
+
+Grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
+
+### grep [options] template [file_name]

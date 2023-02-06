@@ -14,6 +14,21 @@ Cat is a standard Unix utility that reads files sequentially, writing them to st
 | -s (GNU: --squeeze-blank)  | squeeze multiple adjacent blank lines         |
 |  -t implies -v (GNU: -T the same, but without implying -v)  | display tabs as ^I         |
 
+
 Grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
 
 ### grep [options] template [file_name]
+
+
+| Options       | Description        |
+| ------------- |:------------------:|
+| -e    |  pattern   |
+| -i  | ignore uppercase vs. lowercase |
+| -v  |invert match         |
+| -c  | output count of matching lines only         |
+| -l  | output matching files only         |
+| -n  | precede each matching line with a line number         |
+| -h  | output matching lines without preceding them by file names         |
+| -s  | suppress error messages about nonexistent or unreadable files         |
+| -f file  | take regexes from a file         |
+| -o  | output the matched parts of a matching line         |

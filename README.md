@@ -32,3 +32,5 @@ Grep is a command-line utility for searching plain-text data sets for lines that
 | -s  | suppress error messages about nonexistent or unreadable files         |
 | -f file  | take regexes from a file         |
 | -o  | output the matched parts of a matching line         |
+
+Makefile used for building the library (with the targets all, clean, s21_cat, s21_grep).

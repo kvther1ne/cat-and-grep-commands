@@ -15,22 +15,22 @@ Cat - одна из наиболее часто используемых ком�
 |  -t implies -v (GNU: -T the same, but without implying -v)  | отображает табы как ^I         |
 
 
-Grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
+Grep - утилита командной строки, которая находит на вводе строки, отвечающие заданному регулярному выражению, и выводит их.
 
 ### grep [options] template [file_name]
 
 
-| Options       | Description        |
+| Опции       | Описание        |
 | ------------- |:------------------:|
-| -e    |  pattern   |
-| -i  | ignore uppercase vs. lowercase |
-| -v  |invert match         |
-| -c  | output count of matching lines only         |
-| -l  | output matching files only         |
-| -n  | precede each matching line with a line number         |
-| -h  | output matching lines without preceding them by file names         |
-| -s  | suppress error messages about nonexistent or unreadable files         |
-| -f file  | take regexes from a file         |
-| -o  | output the matched parts of a matching line         |
+| -e    |  Шаблон   |
+| -i  | Игнорирует различия регистра |
+| -v  |Инвертирует смысл поиска соответствий         |
+| -c  | Выводит только количество совпадающих строк         |
+| -l  | Выводит только совпадающие файлы         |
+| -n  | Предваряет каждую строку вывода номером строки из файла ввода         |
+| -h  | Выводит совпадающие строки, не предваряя их именами файлов         |
+| -s  | Подавляет сообщения об ошибках о несуществующих или нечитаемых файлах         |
+| -f file  | Получает регулярные выражения из файла         |
+| -o  | Печатает только совпадающие (непустые) части совпавшей строки         |
 
-Makefile used for building the library (with the targets all, clean, s21_cat, s21_grep). Integration tests cover all flag variants and input values, based on a comparison with the behavior of real Bash utilities. Input via stdin is not required to be supported.
+Сборка программ настроена с помощью Makefile с соответствующими целями: s21_cat, s21_grep. Реализовано покрытие интеграционными тестами для всех вариантов флагов и входных значений, на базе сравнения с поведением реальных утилит Bash.

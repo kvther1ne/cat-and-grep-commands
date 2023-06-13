@@ -6,13 +6,14 @@ Cat - одна из наиболее часто используемых ком�
 ### cat [OPTION] [FILE]...
 
 
-| Options       | Description        |
+| Опции       | Описание        |
 | ------------- |:------------------:|
-| -b (GNU: --number-nonblank)    |  numbers only non-empty lines   |
-| -e implies -v (GNU only: -E the same, but without implying -v)    | display end-of-line characters as $ |
-| -n (GNU: --number)  | number all output lines         |
-| -s (GNU: --squeeze-blank)  | squeeze multiple adjacent blank lines         |
-|  -t implies -v (GNU: -T the same, but without implying -v)  | display tabs as ^I         |
+| -b (GNU: --number-nonblank)    |  нумерует только непустые строки   |
+| -e implies -v (GNU only: -E the same, but without implying -v)    | отображает символы конца строки как $ |
+| -n (GNU: --number)  | нумерует все выходные строки         |
+| -s (GNU: --squeeze-blank)  | 
+сжимает несколько смежных пустых строк         |
+|  -t implies -v (GNU: -T the same, but without implying -v)  | отображает табы как ^I         |
 
 
 Grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.

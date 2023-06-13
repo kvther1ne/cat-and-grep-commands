@@ -1,7 +1,7 @@
 # cat-and-grep-commands
-### Basic Bash utilities for working with C programming language texts
+### Базовые утилиты Bash по работе с текстами на языке C
 
-Cat is a standard Unix utility that reads files sequentially, writing them to standard output. 
+Cat - одна из наиболее часто используемых команд в Unix-подобных операционных системах. Команда имеет три взаимосвязанные функции в отношении текстовых файлов: отображение, объединение их копий и создание новых
 
 ### cat [OPTION] [FILE]...
 
